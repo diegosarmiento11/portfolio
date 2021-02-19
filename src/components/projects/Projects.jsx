@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+import './_projects.scss';
 
-class Footer extends Component {
+class Projects extends Component {
     render() {
         return (
             <div>
-                
+                <h2>Last projects</h2>
+
             </div>
         );
     }
 }
 
-export default Footer;
+export default Projects;

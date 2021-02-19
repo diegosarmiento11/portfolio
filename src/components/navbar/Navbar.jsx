@@ -8,10 +8,18 @@ class Navbar extends Component {
             <div>
                 <div className="navbar__container">
                     <ul className='navbar__list'>
-                        <li className="list"> Who am i? </li>
-                        <li className="list"> Projects</li>
-                        <li className="list"> Blog </li>
-                        <li className="list"> Contact me </li>
+                        <li className="list">
+                             <a href="/"> Who am i? </a>
+                        </li>
+                        <li className="list">
+                             <a href="/"> Projects  </a>
+                        </li>
+                        <li className="list">
+                             <a href="/"> Blog   </a>
+                        </li>
+                        <li className="list">
+                             <a href="/"> Contact me </a>
+                        </li>
                     </ul>
                 </div>
             </div>
