@@ -1,0 +1,43 @@
+@import '../../assets/styles/styles.scss';
+
+.project__container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.project__title {
+    @include Fonts;
+}
+
+.project__subtitle {
+    @include Fonts(13px, lighter);
+    color: $light-color;
+}
+
+.project__p {
+    @include Fonts(18px, normal);
+}
+
+.project__images--section {
+    width: 50%;
+}
+
+.project__images {
+    max-width: 400px;
+    height: 220px;
+    border-radius: 20px;
+    margin: 0px 70px 90px 70px;
+}
+
+@media screen and (max-width: 400px) {
+    .project__container{
+        flex-wrap: wrap;
+    }
+    .project__images{
+        max-width: 300px;
+        height: 180px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}

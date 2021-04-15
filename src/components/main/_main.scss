@@ -1,0 +1,61 @@
+@import '../../assets/styles/styles.scss';
+
+html {
+    height: 100%;
+}
+.main__container {
+    max-width: 80%;
+    justify-content: space-evenly;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 200px;
+}
+.image__container {
+    width: 50%;
+    max-width: 400px;
+}
+.profile__image {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.main__heading {
+    font-family: $basefont;
+    color: $font-color;
+    margin: 0;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: start;
+}
+.main__title {
+    font-family: $basefont;
+    color: $title-color;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: start;
+    margin: 30px 0px;
+}
+.main__subheading {
+    color: $font-color;
+    font-weight: bold;
+    font-size: 34px;
+    text-align: start;
+}
+
+.main__heading2 {
+    width: 100%;
+    margin-top: 40px;
+    font-size: 33px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .main__container {
+          margin-top: 30px;
+    }
+}
