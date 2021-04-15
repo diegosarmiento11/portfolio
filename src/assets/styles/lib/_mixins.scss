@@ -1,0 +1,7 @@
+
+
+@mixin Fonts ($font: 21px, $font-weight: bold) {
+    font-family: 'Raleway';
+    color: $font-color;
+    font-size: $font;
+}

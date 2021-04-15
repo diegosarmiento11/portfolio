@@ -14,9 +14,9 @@ class Navbar extends Component {
                         <li className="list">
                              <a href="/"> Projects  </a>
                         </li>
-                        <li className="list">
+                        {/* <li className="list">
                              <a href="/"> Blog   </a>
-                        </li>
+                        </li> */}
                         <li className="list">
                              <a href="/"> Contact me </a>
                         </li>

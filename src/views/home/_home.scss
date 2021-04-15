@@ -1,6 +1,14 @@
 @import '../../assets/styles/styles.scss';
 
 .home__container {
-    background: linear-gradient(0.90turn, $primary-color, $secondary-color);
+    background: linear-gradient(0.90turn, $secondary-color , $primary-color );
     background-color: $primary-color;
+    padding-top: 10px;
+}
+.title__project {
+    @include Fonts(38px);
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
 }

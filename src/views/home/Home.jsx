@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import Particles from 'react-particles-js';
 import Main from '../../components/main/Main';
 import Navbar from '../../components/navbar/Navbar';
+import Button from '../../components/button/Button';
 import Projects from '../../components/projects/Projects';
+import Project1 from '../../assets/images/Project1.png';
+import Project2 from '../../assets/images/Project2.png';
 import './_home.scss';
 
 class Home extends Component {
@@ -11,37 +13,24 @@ class Home extends Component {
             <div className="home__container">
                 <Navbar/>
                 <Main/>
-                <Projects/>
-                
-                <Particles height='100vh' 
-                    params={{
-                        polygon: {
-                            enable: false,
-                            type: 'inside',
-                            move: {
-                                radius: 10
-                            },
-                            url: 'path/to/svg.svg'
-                        },"particles": {
-                            "number": {
-                                "value": 60
-                            },
-                            "size": {
-                                "value": 1
-                            }
-                        },
-                          "interactivity": {
-                            "events": {
-                                "onhover": {
-                                    "enable": true,
-                                    "mode": "repulse"
-                                }
-                            }
-                        }
-                    }} 
-                />  
-                
-
+                <Button/>
+                <h2 className="title__project">Last projects</h2>
+                <Projects 
+                    heading="Single Page Aplication for an electronic signature company"
+                    subtitle="Website design and WebApp"
+                    p1="This was a fully custom webApp that i designed from scratch in Figma. It was builded using React.js."
+                    p2="Connecting every view with React Router and binding components with the last and good practices of React Redux."
+                    a="Visit enproa.co"
+                    Project1={Project1}
+                />
+                <Projects
+                    heading="Single Page Aplication for an electronic signature company"
+                    subtitle="Website design and WebApp"
+                    p1="This was a fully custom webApp that i designed from scratch in Figma. It was builded using React.js."
+                    p2="Connecting every view with React Router and binding components with the last and good practices of React Redux."
+                    a="Visit enproa.co"
+                    Project1={Project2}
+                />
             </div>
         );
     }
