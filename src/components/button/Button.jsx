@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
+
 class Button extends Component {
     render() {
-        return (
-            <div>
-                <input type='button'/>hsjs
-            </div>
+        return (<div>
+            
+        </div>
         );
     }
 }

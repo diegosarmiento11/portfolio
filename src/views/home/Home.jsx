@@ -13,7 +13,6 @@ class Home extends Component {
             <div className="home__container">
                 <Navbar/>
                 <Main/>
-                <Button/>
                 <h2 className="title__project">Last projects</h2>
                 <Projects 
                     heading="Single Page Aplication for an electronic signature company"
