@@ -3,17 +3,21 @@ import Navbar from '../../components/navbar/Navbar';
 import Projects from '../../components/projects/Projects';
 import Project1 from '../../assets/images/Project1.png';
 import Project2 from '../../assets/images/Project2.png';
+import Title from '../../components/title/Title';
+import Skills from '../../components/skills/Skills';
 import './_home.scss';
 
 
 import React from 'react';
+import AboutMe from '../../components/aboutMe/AboutMe';
 
 function Home(props) {
     return (
         <div className="home__container">
                 <Navbar/>
                 <Main/>
-                <h2 className="title__project">Last projects</h2>
+                <Title
+                    name='Last projects'/>
                 <Projects 
                     heading="1. proa for enproa.co"
                     subtitle="Single Page Aplication for an electronic signature company"
@@ -57,6 +61,17 @@ function Home(props) {
                     second='JS'
                     third='React'
                     fourth='Aws'
+                />
+                <Title
+                    name='About me'/>
+                <AboutMe/>
+                <Title
+                    name='Skills'/>
+                {/* <Skills
+                    title='Hard skills'
+                /> */}
+                <Skills
+                    title2='Core skills'
                 />
             </div>
     );
