@@ -3,14 +3,16 @@ import './_main.scss';
 import Profile from '../../assets/images/profileimage.png';
 import styled from 'styled-components';
 
+
 const theme = {
     white : {
-        default: 'black',
-        hover: 'gray',
+        default: 'white',
+        border: 'none',
     },
     blue : {
-        default: 'black',
-        hover: 'gray',
+        default: 'transparent',
+        border: '1px solid #4075FF',
+        hover: 'transform: translateY(-0.25em);'
     }
 
 }
@@ -20,13 +22,16 @@ const Button = styled.button`
     color: #4075FF;
     padding: 25px 70px;
     font-size: 26px;
+    margin: 0px 10px;
     font-weight: bold;
     outline: 0;
     border-radius: 20px;
-    border: none;
+    border: ${props => theme[props.theme].border};
     cursor: pointer;
     &:hover {
-        background-color: gray;
+        background-color: ${props => theme[props.theme].hover};
+        transform: translateY(-0.25em);
+        transition: 0.4s;
     }
 
 `
@@ -58,7 +63,7 @@ class Main extends Component {
                          </Button>
                     </div>
                 </div>
-                <h2 className='main__heading2'> Lets build things together</h2>
+                <h2 className='main__heading2'> Lets build things together!</h2>
             </div>
             
         );

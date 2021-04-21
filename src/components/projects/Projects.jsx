@@ -1,26 +1,37 @@
-import React, { Component } from 'react';
 import './_projects.scss';
 
+import React from 'react';
 
-class Projects extends Component {
-    render() {
-        return (
-            <div className="project__container">
-                <div>
-                    <h3 className="project__title">{this.props.heading}</h3>
-                    <p className="project__subtitle">{this.props.subtitle}</p>
-                    <p className="project__p">{this.props.p1}</p>
-                    <p className="project__p">{this.props.p2}</p>
-                    <a href="">{this.props.a}</a>
+function Projects(props) {
+    return (
+        <div className="project__container">
+                <div className='project__p--section'>
+                    <h3 className="project__title">{props.heading}</h3>
+                    <h3 className="project__subtitle">{props.subtitle}</h3>
+                    <p className="project__p">{props.p1}</p>
+                    <p className="project__p">{props.p2}</p>
+                    <div className="badge__container">
+                        <div className="badge">
+                            <p>{props.first}</p>
+                        </div>
+                        <div className="badge">
+                            <p>{props.second}</p>
+                        </div>
+                        <div className="badge">
+                            <p>{props.third}</p>
+                        </div>
+                        <div className="badge">
+                            <p>{props.fourth}</p>
+                        </div>
+                    </div>
                 </div>
                 <div className="project__images--section">
                     <div className='project__images--container'>
-                        <img className='project__images' src={this.props.Project1} alt=""/>
+                        <img className='project__images' src={props.Project1} alt=""/>
                     </div>
                 </div>
             </div>
-        );
-    }
+    );
 }
 
 export default Projects;
