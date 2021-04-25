@@ -5,11 +5,12 @@ import Project1 from '../../assets/images/Project1.png';
 import Project2 from '../../assets/images/Project2.png';
 import Title from '../../components/title/Title';
 import Skills from '../../components/skills/Skills';
-import './_home.scss';
-
-
 import React from 'react';
 import AboutMe from '../../components/aboutMe/AboutMe';
+import SkillBadge from '../../components/skillBadge/SkillBadge';
+
+import './_home.scss';
+
 
 function Home(props) {
     return (
@@ -30,10 +31,10 @@ function Home(props) {
                     fourth='Aws'
                 />
                 <Projects
-                    heading="Single Page Aplication for an electronic signature company"
+                    heading="1. proa for enproa.co"
                     subtitle="Website design and WebApp"
                     p1="This was a fully custom webApp that i designed from scratch in Figma. It was builded using React.js."
-                    p2="Connecting every view with React Router and binding components with the last and good practices of React Redux."
+                    p2=""
                     Project1={Project2}
                     first='HTML'
                     second='JS'
@@ -52,10 +53,10 @@ function Home(props) {
                     fourth='Aws'
                 />
                 <Projects
-                    heading="Single Page Aplication for an electronic signature company"
+                    heading="1. proa for enproa.co"
                     subtitle="Website design and WebApp"
                     p1="This was a fully custom webApp that i designed from scratch in Figma. It was builded using React.js."
-                    p2="Connecting every view with React Router and binding components with the last and good practices of React Redux."
+                    p2=""
                     Project1={Project2}
                     first='HTML'
                     second='JS'
@@ -67,12 +68,13 @@ function Home(props) {
                 <AboutMe/>
                 <Title
                     name='Skills'/>
-                {/* <Skills
-                    title='Hard skills'
-                /> */}
                 <Skills
-                    title2='Core skills'
-                />
+                    title='Hard skills'
+                    title2='Core skills'>
+
+                    <SkillBadge/>
+               
+                </Skills>
             </div>
     );
 }
