@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './_button.scss';
 
-class Button extends Component {
-    render() {
-        return (
-            <div>
-                <input type='button'/>hsjs
-            </div>
-        );
-    }
+function Button(props) {
+    return (
+        <div className='button__container'>
+            <button className='final__button' type='text'>
+                Get in touch
+            </button>
+        </div>
+    );
 }
 
 export default Button;

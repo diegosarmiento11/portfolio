@@ -5,14 +5,17 @@
     margin: 0 auto;
     display: flex;
 }
+.project__p--section {
+    max-width: 500px;
+}
 
 .project__title {
     @include Fonts;
+    margin: 10px 0px 30px 0px;
 }
 
 .project__subtitle {
-    @include Fonts(13px, lighter);
-    color: $light-color;
+    @include Fonts;
 }
 
 .project__p {
@@ -24,10 +27,40 @@
 }
 
 .project__images {
-    max-width: 400px;
-    height: 220px;
+    max-width: 500px;
+    height: 290px;
     border-radius: 20px;
-    margin: 0px 70px 90px 70px;
+    margin: 0px 70px 30px 160px;
+}
+
+.badge__container {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.badge {
+    background-color: $succes-color;
+    border-radius: 5px;
+    border: 1px solid $succes-color;
+    width: 77px;
+    max-height: 36px;
+    margin: 0px 10px;
+    &:hover {
+        background-color: #4075FF;
+        transform: translateY(-0.25em);
+        transition: 0.4s;
+        color: $font-color;
+    }
+    
+}
+
+.badge p {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 4px 0px;
+    font-weight: bold;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 400px) {

@@ -5,10 +5,3 @@
     background-color: $primary-color;
     padding-top: 10px;
 }
-.title__project {
-    @include Fonts(38px);
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 30px;
-}
