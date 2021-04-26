@@ -8,28 +8,45 @@ import './_skills.scss';
 
 function Skills(props) {
     return (
-        <div className='skills__container'>
+        <div className=''>
             <h3 className='skills_title'>{props.title}</h3>
-            <SkillBadge
-                img={Pencil}
-            />
-            <SkillBadge
-                img={Computer}
-            />
-            <SkillBadge
-                img={Code}
-            />
+            <div className='skills__container'> 
+                <SkillBadge
+                    img={Pencil}
+                    title='Visual Design'
+                    p='He desarrollado capacidades autodidactas de aprendizaje y tengo una enorme fascinación por seguir aprendiendo mientras construyo.' 
+                />
+                <SkillBadge
+                    img={Computer}
+                    title='Visual Design'
+                    p='He desarrollado capacidades autodidactas de aprendizaje y tengo una enorme fascinación por seguir aprendiendo mientras construyo. '
+                />
+                <SkillBadge
+                    img={Code}
+                    title='Visual Design'
+                    p='He desarrollado capacidades autodidactas de aprendizaje y tengo una enorme fascinación por seguir aprendiendo mientras construyo. '
+                />
+            </div>
             <h3 className='skills_title'>{props.title2}</h3>
-            <SkillBadge
-                img={Pencil}
-            />
-            <SkillBadge
-                img={Computer}
-            />
-            <SkillBadge
-                img={Code}
-            />
+            <div className='skills__container'>
+                <SkillBadge
+                    img={Pencil}
+                    title='Visual Design'
+                    p='He desarrollado capacidades autodidactas de aprendizaje y tengo una enorme fascinación por seguir aprendiendo mientras construyo.'
+                />
+                <SkillBadge
+                    img={Computer}
+                    title='Visual Design'
+                    p='He desarrollado capacidades autodidactas de aprendizaje y tengo una enorme fascinación por seguir aprendiendo mientras construyo.'
+                />
+                <SkillBadge
+                    img={Code}
+                    title='Visual Design'
+                    p='He desarrollado capacidades autodidactas de aprendizaje y tengo una enorme fascinación por seguir aprendiendo mientras construyo.'
+                />
+            </div>
         </div>
+        
     );
 }
 

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './_main.scss';
 import Profile from '../../assets/images/profileimage.png';
 import styled from 'styled-components';
@@ -39,9 +39,10 @@ Button.defaultProps = {
     theme: 'white'
 }
 
-class Main extends Component {
-    render() {
-        return (
+
+function Main(props) {
+    return (
+        <div>
             <div >
                 <div className='main__container'>
                     <div className='image__container'>
@@ -65,9 +66,9 @@ class Main extends Component {
                 </div>
                 <h2 className='main__heading2'> Lets build things together!</h2>
             </div>
-            
-        );
-    }
+        </div>
+    );
 }
 
 export default Main;
+

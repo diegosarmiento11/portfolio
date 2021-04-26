@@ -45,6 +45,12 @@
     width: 77px;
     max-height: 36px;
     margin: 0px 10px;
+    &:hover {
+        background-color: #4075FF;
+        transform: translateY(-0.25em);
+        transition: 0.4s;
+        color: $font-color;
+    }
     
 }
 

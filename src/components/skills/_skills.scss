@@ -1,1 +1,23 @@
 @import '../../assets/styles/styles.scss';
+
+.skills__container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-self: center;
+    font-family: $basefont;
+}
+
+.skills_title {
+    width: 80%;
+    margin: 0 auto;
+    color: $font-color;
+    font-size: 30px;
+    font-family: $basefont;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    border: 2px solid $succes-color;
+    text-align: center;
+}
+

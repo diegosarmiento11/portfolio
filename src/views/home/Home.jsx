@@ -10,6 +10,7 @@ import AboutMe from '../../components/aboutMe/AboutMe';
 import SkillBadge from '../../components/skillBadge/SkillBadge';
 
 import './_home.scss';
+import HelpYou from '../../components/helpYou/HelpYou';
 
 
 function Home(props) {
@@ -23,7 +24,7 @@ function Home(props) {
                     heading="1. proa for enproa.co"
                     subtitle="Single Page Aplication for an electronic signature company"
                     p1="Connecting every view with React Router and binding components with the last and good practices of React Redux."
-                    p2=""
+                    p2="holi"
                     Project1={Project1}
                     first='HTML'
                     second='CSS'
@@ -31,10 +32,10 @@ function Home(props) {
                     fourth='Aws'
                 />
                 <Projects
-                    heading="1. proa for enproa.co"
+                    heading="2. proa for enproa.co"
                     subtitle="Website design and WebApp"
                     p1="This was a fully custom webApp that i designed from scratch in Figma. It was builded using React.js."
-                    p2=""
+                    p2="holi"
                     Project1={Project2}
                     first='HTML'
                     second='JS'
@@ -42,10 +43,10 @@ function Home(props) {
                     fourth='Aws'
                 />
                 <Projects 
-                    heading="1. proa for enproa.co"
+                    heading="3. proa for enproa.co"
                     subtitle="Single Page Aplication for an electronic signature company"
                     p1="Connecting every view with React Router and binding components with the last and good practices of React Redux."
-                    p2=""
+                    p2="Holi"
                     Project1={Project1}
                     first='HTML'
                     second='CSS'
@@ -53,10 +54,10 @@ function Home(props) {
                     fourth='Aws'
                 />
                 <Projects
-                    heading="1. proa for enproa.co"
+                    heading="4. proa for enproa.co"
                     subtitle="Website design and WebApp"
                     p1="This was a fully custom webApp that i designed from scratch in Figma. It was builded using React.js."
-                    p2=""
+                    p2="Holi"
                     Project1={Project2}
                     first='HTML'
                     second='JS'
@@ -67,14 +68,13 @@ function Home(props) {
                     name='About me'/>
                 <AboutMe/>
                 <Title
-                    name='Skills'/>
+                    name='My Skills'/>
                 <Skills
                     title='Hard skills'
                     title2='Core skills'>
-
                     <SkillBadge/>
-               
                 </Skills>
+                <HelpYou/>
             </div>
     );
 }

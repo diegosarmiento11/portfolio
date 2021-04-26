@@ -1,1 +1,27 @@
 @import "../../assets/styles/styles.scss";
+
+
+.button__container {
+    display: flex;
+    justify-content: center;
+}
+
+.final__button {
+    background-color: $font-color;
+    color: #4075FF;
+    padding: 25px 70px;
+    font-size: 26px;
+    margin: 0 auto;
+    margin: 50px 10px;
+    font-weight: bold;
+    outline: 0;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        background-color: #4075FF;
+        transform: translateY(-0.25em);
+        transition: 0.4s;
+        color: $font-color;
+    }
+}
