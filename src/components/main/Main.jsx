@@ -1,44 +1,7 @@
 import React from 'react';
 import './_main.scss';
+import Button from '../../components/button/Button';
 import Profile from '../../assets/images/profileimage.png';
-import styled from 'styled-components';
-
-
-const theme = {
-    white : {
-        default: 'white',
-        border: 'none',
-    },
-    blue : {
-        default: 'transparent',
-        border: '1px solid #4075FF',
-        hover: 'transform: translateY(-0.25em);'
-    }
-
-}
-
-const Button = styled.button`
-    background-color: ${props => theme[props.theme].default};
-    color: #4075FF;
-    padding: 25px 70px;
-    font-size: 26px;
-    margin: 0px 10px;
-    font-weight: bold;
-    outline: 0;
-    border-radius: 20px;
-    border: ${props => theme[props.theme].border};
-    cursor: pointer;
-    &:hover {
-        background-color: ${props => theme[props.theme].hover};
-        transform: translateY(-0.25em);
-        transition: 0.4s;
-    }
-
-`
-Button.defaultProps = {
-    theme: 'white'
-}
-
 
 function Main(props) {
     return (
@@ -56,15 +19,16 @@ function Main(props) {
                             Front-end Developer
                         </h1>
                         <h3 className='main__subheading'>I design and develop responsive, optimized and efficient websites.</h3>
-                        <Button>
-                            Get in touch
-                         </Button>
-                         <Button theme='blue'>
-                            CV / Resumee
-                         </Button>
+                        <div className="button__container2s">
+                            <Button
+                                name='Get in touch'
+                            />
+                            <Button 
+                                name='CV / Resumee'>
+                            </Button>
+                        </div>
                     </div>
                 </div>
-                <h2 className='main__heading2'> Lets build things together!</h2>
             </div>
         </div>
     );

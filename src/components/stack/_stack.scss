@@ -3,3 +3,13 @@
 .one {
     margin: 10px 0px 0px 30px;
 }
+
+@media screen and (max-width: 420px) {
+    .one {
+        flex-wrap: wrap;
+        max-width: 60px;
+    }
+    .stack__images{
+        max-width: 100%;
+    }
+}

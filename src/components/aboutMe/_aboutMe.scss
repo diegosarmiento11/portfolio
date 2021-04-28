@@ -37,3 +37,20 @@
     grid-template-columns: repeat(3, 1fr);
     max-width: 100%;
 }
+
+@media screen and (max-width: 420px) {
+
+    .aboutme__stack {
+        flex-wrap: wrap;
+        max-width: 300px;
+    }
+    .aboutme__container {
+        max-width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .aboutme__text {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}

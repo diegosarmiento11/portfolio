@@ -42,20 +42,40 @@ html {
     font-weight: bold;
     font-size: 34px;
     text-align: start;
+    margin-bottom: 0px;
 }
-
-.main__heading2 {
-    @include Fonts(45px);
-    width: 100%;
-    display: inline-block;
-    text-align: center;
-    margin: 0px;
-
+.button__container2 {
+    display: flex;
+    justify-content: flex-start;
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     .main__container {
-          margin-top: 30px;
+        margin-top: 100px;
+        display: block;
+        max-height: 900px;
+    }
+    .main__title {
+        font-size: 40px;
+    }
+    .profile__image {
+        height: 100%;
+        max-width: 100%;
+    }
+    .image__container {
+        width: 100%;
+    }
+    .text__container {
+        text-align: center;
+    }
+    .main__heading {
+        text-align: center;
+    }
+    .main__title {
+        text-align: center;
+    }
+    .main__subheading {
+        text-align: center;
     }
 }
