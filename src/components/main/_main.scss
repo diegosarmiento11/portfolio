@@ -6,7 +6,6 @@ html {
 .main__container {
     max-width: 80%;
     justify-content: space-evenly;
-    height: 60vh;
     margin: 0 auto;
     display: flex;
     margin-top: 200px;
@@ -48,21 +47,34 @@ html {
     display: flex;
     justify-content: flex-start;
 }
+.main__heading2 {
+    @include Fonts(45px);
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+}
 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: $sm) {
     .main{
         max-height: 1200px;
     }
     .main__container {
         margin-top: 70px;
         display: block;
-        height: 80vh;
     }
     .main__heading {
         margin-top: 20px;
         text-align: center;
         font-size: 1.7em;
+    }
+    .main__heading2{
+        display: none;
+        text-align: center;
+        font-size: 1.3em;
     }
     .main__title {
         font-size: 1.8em;
@@ -89,4 +101,14 @@ html {
         display: inline-block;
         margin-top: 30px;
     }
+}
+
+@media screen and (max-width: $xsm) {
+
+    .main__container {
+        margin-top: 70px;
+        display: block;
+        height: 100vh;
+    }
+    
 }

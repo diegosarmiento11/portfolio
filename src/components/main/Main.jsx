@@ -3,7 +3,7 @@ import './_main.scss';
 import Button from '../../components/button/Button';
 import Profile from '../../assets/images/profileimage.png';
 
-function Main(props) {
+function Main() {
     return (
             <div className='main' >
                 <div className='main__container'>
@@ -28,6 +28,7 @@ function Main(props) {
                         </div>
                     </div>
                 </div>
+                <h2 className='main__heading2'> Lets build things together!</h2>
             </div>
     );
 }

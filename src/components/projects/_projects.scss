@@ -27,8 +27,7 @@
 }
 
 .project__images {
-    max-width: 500px;
-    height: 290px;
+    max-width: 100%;
     border-radius: 20px;
     margin: 0px 70px 30px 160px;
 }
@@ -63,13 +62,13 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: $sm) {
     .project__container{
         flex-wrap: wrap;
         padding: 20px 0px;
     }
     .project__images{
-        max-width: 300px;
+        max-width: 200%;
         height: 180px;
         margin: 0 auto;
         margin-top: 20px;
@@ -77,5 +76,42 @@
     .badge__container {
         max-width: 300px;
         margin: 0px;
+    }
+}
+
+@media screen and (max-width: $xsm) {
+    .project__container{
+        flex-wrap: wrap;
+        padding: 20px 0px;
+    }
+    .project__images{
+        max-width: 200%;
+        height: 130px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .badge__container {
+        max-width: 300px;
+        margin: 0px;
+    }
+    .project__p--section {
+        max-width: 260px;
+    }
+    .project__title {
+        @include Fonts(21px);
+        margin: 10px 0px 30px 0px;
+    }
+    .project__subtitle {
+        @include Fonts(16px);
+    }
+    .project__p {
+        @include Fonts(14px, normal);
+    }
+    .badge__container {
+        max-width: 260px;
+        margin: 0px;
+    }
+    .badge p {
+        font-size: 11px;
     }
 }
