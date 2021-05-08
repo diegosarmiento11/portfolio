@@ -5,8 +5,7 @@ import Profile from '../../assets/images/profileimage.png';
 
 function Main(props) {
     return (
-        <div>
-            <div >
+            <div className='main' >
                 <div className='main__container'>
                     <div className='image__container'>
                         <img className='profile__image' src={Profile} alt=""/>
@@ -19,18 +18,17 @@ function Main(props) {
                             Front-end Developer
                         </h1>
                         <h3 className='main__subheading'>I design and develop responsive, optimized and efficient websites.</h3>
-                        <div className="button__container2s">
+                        <div className="button__container2">
                             <Button
                                 name='Get in touch'
                             />
                             <Button 
-                                name='CV / Resumee'>
+                                name='CV / Resumé'>
                             </Button>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     );
 }
 

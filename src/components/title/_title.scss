@@ -8,3 +8,10 @@
     margin-bottom: 50px;
     text-align: center;
 }
+
+@media screen and (max-width: 420px) {
+    .title__project {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+}

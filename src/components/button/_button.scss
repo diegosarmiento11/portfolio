@@ -25,3 +25,15 @@
         color: $font-color;
     }
 }
+
+@media screen and (max-width: 420px) {
+    .button__container {
+        max-width: 100%;
+    }
+    .final__button {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 1.3em;
+    }
+
+}
