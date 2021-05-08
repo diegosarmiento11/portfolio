@@ -5,7 +5,7 @@ function Button(props) {
     return (
         <div className='button__container'>
             <button className='final__button' type='text'>
-                Get in touch
+                {props.name}
             </button>
         </div>
     );

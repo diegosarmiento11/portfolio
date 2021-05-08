@@ -6,7 +6,7 @@ function Stack(props) {
         <div>
             <div>
                 <div className="one">
-                    <img src={props.img} alt=''/> 
+                    <img className='stack__images' src={props.img} alt=''/> 
                 </div>
             </div>
         </div>

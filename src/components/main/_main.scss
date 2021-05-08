@@ -42,20 +42,51 @@ html {
     font-weight: bold;
     font-size: 34px;
     text-align: start;
+    margin-bottom: 0px;
 }
-
-.main__heading2 {
-    @include Fonts(45px);
-    width: 100%;
-    display: inline-block;
-    text-align: center;
-    margin: 0px;
-
+.button__container2 {
+    display: flex;
+    justify-content: flex-start;
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
+    .main{
+        max-height: 1200px;
+    }
     .main__container {
-          margin-top: 30px;
+        margin-top: 70px;
+        display: block;
+        height: 80vh;
+    }
+    .main__heading {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 1.7em;
+    }
+    .main__title {
+        font-size: 1.8em;
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .main__subheading {
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .profile__image {
+        height: 100%;
+        max-width: 100%;
+    }
+    .image__container {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .text__container {
+        text-align: center;
+    }
+   
+    .button__container2 {
+        display: inline-block;
+        margin-top: 30px;
     }
 }

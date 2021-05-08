@@ -18,6 +18,7 @@ function Home(props) {
         <div className="home__container">
                 <Navbar/>
                 <Main/>
+                <h2 className='main__heading2'> Lets build things together!</h2>
                 <Title
                     name='Last projects'/>
                 <Projects 
