@@ -19,7 +19,7 @@ function Home(props) {
                 <Navbar/>
                 <Main/>
                 <Title
-                    name='Last projects'/>
+                    name='Lastest projects'/>
                 <Projects 
                     heading="1. proa for enproa.co"
                     subtitle="Single Page Aplication for an electronic signature company"
