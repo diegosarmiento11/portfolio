@@ -30,7 +30,7 @@ function Main() {
                         </div>
                     </div>
                 </div>
-                <h2 className='main__heading2'> Lets build things together!</h2>
+                <h2 id='PROJECTTARGET' className='main__heading2'> Lets build things together!</h2>
             </div>
     );
 }

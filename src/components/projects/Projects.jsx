@@ -4,7 +4,7 @@ import React from 'react';
 
 function Projects(props) {
     return (
-        <div className="project__container">
+        <div  className="project__container">
                 <div className='project__p--section'>
                     <h3 className="project__title">{props.heading}</h3>
                     <h3 className="project__subtitle">{props.subtitle}</h3>

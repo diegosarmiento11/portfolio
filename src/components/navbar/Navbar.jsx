@@ -23,13 +23,13 @@ class Navbar extends Component {
                     </div>
                     <ul className='navbar__list'>
                         <li className="list">
-                             <a href="/"> Projects  </a>
+                             <a href="#PROJECTTARGET"> Projects  </a>
                         </li>
                         <li className="list">
-                             <a href="/"> Who am i? </a>
+                             <a href="#WHOAMITARGET"> Who am i? </a>
                         </li>
                         <li className="list">
-                             <a href="/"> Contact me </a>
+                             <a href="#CONTACTMETARGET"> Contact me </a>
                         </li>
                     </ul>
                 </div>
