@@ -9,13 +9,14 @@ import Html from '../../assets/images/html.png';
 import Aws from '../../assets/images/aws.png';
 import Heroku from '../../assets/images/heroku.png';
 import Reactlogo from '../../assets/images/react.png';
+import Yarn from '../../assets/images/yarn.png';
 
 function AboutMe(props) {
     return (
         <div className='aboutme__container'>
             <div className="aboutme__text">
-                <h4 className='aboutme__title2'>Choosing the rigth candidate could be overwhelmed , right?</h4>
-                <h3 className='aboutme__title'>Let me tell you something about me and the challenges that i have overcome</h3>
+                <h4 className='aboutme__title'>Choosing the rigth candidate could be overwhelmed , right?</h4>
+                <h3 className='aboutme__title2'>Let me tell you something about me and the challenges that i have overcome</h3>
                 <p>He desarrollado capacidades autodidactas de aprendizaje y tengo una enorme fascinación por seguir aprendiendo mientras construyo. </p>
                 <h3 className='aboutme__title'>So, ¿How can i help you?</h3>
                 <p>Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
@@ -23,14 +24,14 @@ function AboutMe(props) {
                 <p>He desarrollado capacidades autodidactas de aprendizaje y tengo una enorme fascinación por seguir aprendiendo mientras construyo. </p>
             </div>
             <div className="aboutme__stack">
-                <h3 className='aboutme__title--stack'>Actual stack</h3>
+                <h3 className='aboutme__title--stack'>Current stack</h3>
                 <div className="aboutme__img--container">
                     <div className="stack__container">
                         <Stack
-                            img={Css}
+                            img={Html}
                         />
                         <Stack
-                            img={Git}
+                            img={Css}
                         />
                         <Stack
                             img={Js}
@@ -39,16 +40,19 @@ function AboutMe(props) {
                             img={Sass}
                         />
                         <Stack
-                            img={Html}
+                            img={Reactlogo}
                         />
                         <Stack
-                            img={Aws}
+                            img={Git}
+                        />
+                        <Stack
+                            img={Yarn}
                         />
                         <Stack
                             img={Heroku}
                         />
                         <Stack
-                            img={Reactlogo}
+                            img={Aws}
                         />
                     </div>
                 </div>

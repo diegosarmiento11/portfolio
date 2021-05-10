@@ -2,7 +2,9 @@ import Main from '../../components/main/Main';
 import Navbar from '../../components/navbar/Navbar';
 import Projects from '../../components/projects/Projects';
 import Project1 from '../../assets/images/Project1.png';
-import Project2 from '../../assets/images/Project2.png';
+import Personal from '../../assets/images/personal.png';
+import ProaHome from '../../assets/images/proa-home.png';
+import PlatziVideo from '../../assets/images/PlatziVideo.png'
 import Title from '../../components/title/Title';
 import Skills from '../../components/skills/Skills';
 import React from 'react';
@@ -37,7 +39,7 @@ function Home(props) {
                     subtitle="Website design and WebApp"
                     p1="This was a fully custom webApp that i designed from scratch in Figma. It was builded using React.js."
                     p2="holi"
-                    Project1={Project2}
+                    Project1={Personal}
                     first='HTML'
                     second='JS'
                     third='React'
@@ -48,7 +50,7 @@ function Home(props) {
                     subtitle="Single Page Aplication for an electronic signature company"
                     p1="Connecting every view with React Router and binding components with the last and good practices of React Redux."
                     p2="Holi"
-                    Project1={Project1}
+                    Project1={ProaHome}
                     first='HTML'
                     second='CSS'
                     third='React'
@@ -59,7 +61,7 @@ function Home(props) {
                     subtitle="Website design and WebApp"
                     p1="This was a fully custom webApp that i designed from scratch in Figma. It was builded using React.js."
                     p2="Holi"
-                    Project1={Project2}
+                    Project1={PlatziVideo}
                     first='HTML'
                     second='JS'
                     third='React'

@@ -10,7 +10,8 @@ function HelpYou(props) {
                 name='So, ¿How can i help you?'    
             />
             <Button
-                name='Get in touch'
+                name='Sent an email'
+                url="mailto:me@diegosarmiento.co"
             />
         </div>
     );
