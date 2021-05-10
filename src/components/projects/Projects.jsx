@@ -27,7 +27,7 @@ function Projects(props) {
                 </div>
                 <div className="project__images--section">
                     <div className='project__images--container'>
-                        <img className='project__images' src={props.Project1} alt=""/>
+                        <img className='project__images' src={props.Project1} alt="Proa project"/>
                     </div>
                 </div>
             </div>

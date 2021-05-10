@@ -8,7 +8,7 @@ function Main() {
             <div className='main' >
                 <div className='main__container'>
                     <div className='image__container'>
-                        <img className='profile__image' src={Profile} alt=""/>
+                        <img className='profile__image' src={Profile} alt="Diego Sarmiento profile"/>
                     </div>
                     <div className="text__container">
                         <h2 className='main__heading'>
