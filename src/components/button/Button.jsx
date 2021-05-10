@@ -4,9 +4,9 @@ import './_button.scss';
 function Button(props) {
     return (
         <div className='button__container'>
-            <button className='final__button' type='text'>
+            <a href={props.url} className='final__button' type='text'>
                 {props.name}
-            </button>
+            </a>
         </div>
     );
 }

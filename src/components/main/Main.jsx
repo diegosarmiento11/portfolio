@@ -21,10 +21,12 @@ function Main() {
                         <div className="button__container2">
                             <Button
                                 name='Get in touch'
+                                url='https://api.whatsapp.com/send?phone=573142968917'
                             />
                             <Button 
-                                name='CV / Resumé'>
-                            </Button>
+                                name='CV / Resumé'
+                                url='https://diegosarmientocv.s3.amazonaws.com/Diego+Sarmientocv.pdf'
+                            />
                         </div>
                     </div>
                 </div>
