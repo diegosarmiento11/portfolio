@@ -7,7 +7,8 @@ function HelpYou(props) {
     return (
         <div>
             <Title
-                name='So, ¿How can i help you?'    
+                name='So, ¿How can i help you?' 
+                link="CONTACTMETARGET"  
             />
             <Button
                 name='Sent an email'

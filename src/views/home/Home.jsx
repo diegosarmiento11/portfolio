@@ -68,7 +68,9 @@ function Home(props) {
                     fourth='Aws'
                 />
                 <Title
-                    name='About me'/>
+                    name='About me'
+                    link='WHOAMITARGET'
+                />
                 <AboutMe/>
                 <Title
                     name='My Skills'/>
