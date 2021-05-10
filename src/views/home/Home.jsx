@@ -8,6 +8,7 @@ import Skills from '../../components/skills/Skills';
 import React from 'react';
 import AboutMe from '../../components/aboutMe/AboutMe';
 import SkillBadge from '../../components/skillBadge/SkillBadge';
+import Footer from '../../components/footer/Footer';
 
 import './_home.scss';
 import HelpYou from '../../components/helpYou/HelpYou';
@@ -75,6 +76,7 @@ function Home(props) {
                     <SkillBadge/>
                 </Skills>
                 <HelpYou/>
+                <Footer/>
             </div>
     );
 }

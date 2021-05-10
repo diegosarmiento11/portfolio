@@ -1,1 +1,49 @@
 @import '../../assets/styles/styles.scss';
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+.footer__images {
+    max-width: 100%;
+    justify-items: center;
+}
+.footer__p--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__p {
+    color: $white-color;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: $basefont;
+    font-size: 24px;
+    margin: 50px 0px;
+}
+
+@media screen and (max-width: $sm) {
+    .footer__container {
+        margin: 0 auto;
+        justify-items: center;
+        padding: 0px 10px 0px 30px;
+        margin-top: 60px;
+    }
+    .footer__p {
+        font-size: 0.6em;
+        margin: 70px 0px 30px 0px;
+    }
+    .footer__images {
+        max-width: 70%;
+    }
+    .footer__container a {
+        max-width: 80%;
+    }
+}
