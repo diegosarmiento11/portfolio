@@ -11,7 +11,7 @@ function HelpYou(props) {
                 link="CONTACTMETARGET"  
             />
             <Button
-                name='Sent an email'
+                name='Send me an email'
                 url="mailto:me@diegosarmiento.co"
             />
         </div>
