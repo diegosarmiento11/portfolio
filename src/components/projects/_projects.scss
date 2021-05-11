@@ -10,12 +10,12 @@
 }
 
 .project__title {
-    @include Fonts;
+    @include Fonts(23px);
     margin: 10px 0px 30px 0px;
 }
 
 .project__subtitle {
-    @include Fonts;
+    @include Fonts(20px);
 }
 
 .project__p {
@@ -30,6 +30,12 @@
     max-width: 100%;
     border-radius: 20px;
     margin: 0px 70px 30px 160px;
+    &:hover {
+        background-color: #4075FF;
+        transform: translateY(-0.50em);
+        transition: 0.4s;
+        color: $font-color;
+    }
 }
 
 .badge__container {
