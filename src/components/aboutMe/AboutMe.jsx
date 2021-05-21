@@ -17,11 +17,12 @@ function AboutMe(props) {
             <div className="aboutme__text">
                 <h4 className='aboutme__title'>Choosing the rigth candidate could be overwhelmed , right?</h4>
                 <h3 className='aboutme__title2'>Let me tell you something about me and the challenges that i have overcome</h3>
-                <p>He desarrollado capacidades autodidactas de aprendizaje y tengo una enorme fascinación por seguir aprendiendo mientras construyo. </p>
-                <h3 className='aboutme__title'>So, ¿How can i help you?</h3>
-                <p>Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+                <p>I have developed self-taught learning skills and have a huge fascination with continuing to learn as i go along. </p>
+                <p>I have been involve into tech world since December 2019 and started to create code professionaly from September 2020 till now.</p>
+                <p>I'm following the mern stack and I'm going to become a fullstack developer</p>
                 <h3 className='aboutme__title'>The reason why...</h3>
-                <p>He desarrollado capacidades autodidactas de aprendizaje y tengo una enorme fascinación por seguir aprendiendo mientras construyo. </p>
+                <p>We could work together and I promise that I will give 100% of my talent to create products that gives value to the company's customers. This will be reflected in new business opportunities and perspectives for product development.</p>
+                <h3 className='aboutme__title'>So, ¿How can i help you?</h3>
             </div>
             <div className="aboutme__stack">
                 <h3 className='aboutme__title--stack'>Current stack</h3>
