@@ -11,7 +11,7 @@ import './_skills.scss';
 
 function Skills(props) {
     return (
-        <div className=''>
+        <div>
             <h3 className='skills_title'>{props.title}</h3>
             <div className='skills__container'> 
                 <SkillBadge

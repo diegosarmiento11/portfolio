@@ -19,10 +19,14 @@ import HelpYou from '../../components/helpYou/HelpYou';
 function Home(props) {
     return (
         <div className="home__container">
-                <Navbar/>
+                <Navbar
+                    link='HOMETARGET'
+                />
                 <Main/>
                 <Title
-                    name='Lastest projects'/>
+                    name='Lastest projects'
+                    link='PROJECTTARGET2'
+                />
                 <Projects 
                     heading="1. Landingpage for enproa.co"
                     subtitle="Single Page Aplication for an electronic signature company"
@@ -73,7 +77,10 @@ function Home(props) {
                 />
                 <AboutMe/>
                 <Title
-                    name='My Skills'/>
+                    name='My Skills'
+                    link='SKILLSTARGET'
+                    />
+                    
                 <Skills
                     title='Hard skills'
                     title2='Core skills'>

@@ -1,9 +1,10 @@
 import React, {useState} from 'react';
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Link } from 'react-router-dom';
 import { SideBarData } from './SideBarData';
 import './_hamburguer.scss';
+import { HashLink } from 'react-router-hash-link';
 
 function HamburguerMenu() {
   const [sidebar, setSidebar] = useState(false);
@@ -25,12 +26,12 @@ function HamburguerMenu() {
                 {SideBarData.map((item, index) => {
                   return (
                     <li key={index} className={item.cName}> 
-                      <Link to={item.path}>
+                      <HashLink to={item.path} >
                         {item.icon} 
                         <span className='icon__span'>
                           {item.title}
                           </span>
-                      </Link>      
+                      </HashLink>      
                     </li> 
                     );
                   } ) }
