@@ -25,7 +25,7 @@ function Main(props) {
                             />
                             <Button 
                                 name='CV / Resumé'
-                                url='https://diegosarmientocv.s3.amazonaws.com/Diego+Sarmientocv.pdf'
+                                url='https://diegosarmientocv.s3.amazonaws.com/Diego+Sarmiento+(2).pdf'
                             />
                         </div>
                     </div>
