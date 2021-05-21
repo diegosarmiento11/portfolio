@@ -3,9 +3,9 @@ import './_main.scss';
 import Button from '../../components/button/Button';
 import Profile from '../../assets/images/profileimage.png';
 
-function Main() {
+function Main(props) {
     return (
-            <div className='main' >
+            <div className='main' id={props.link}>
                 <div className='main__container'>
                     <div className='image__container'>
                         <img className='profile__image' src={Profile} alt="Diego Sarmiento profile"/>

@@ -2,41 +2,42 @@ import React from 'react'
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
-import * as IoI5cons from "react-icons/io5"
+import * as IoI5cons from "react-icons/io5";
+import './_sideBarData.scss';
 
 
 export const SideBarData = [
     {
         title: 'Home',
-        path: '/',
+        path: '#HOMETARGET',
         icon: <AiIcons.AiFillHome/>,
         cName: 'nav__text'
     },
 
     {
         title: 'Projects',
-        path: '/',
+        path: '#PROJECTTARGET2',
         icon: <IoI5cons.IoBagSharp/>,
         cName: 'nav__text'
     },
 
     {
         title: 'About me',
-        path: '/',
+        path: '#WHOAMITARGET',
         icon: <FaIcons.FaSignature/>,
         cName: 'nav__text'
     },
     
     {
         title: 'Skills',
-        path: '/',
+        path: '/#SKILLSTARGET',
         icon: <IoIcons.IoIosHammer/>,
         cName: 'nav__text'
     },
 
     {
         title: 'Contact',
-        path: '/',
+        path: '#CONTACTMETARGET',
         icon: <AiIcons.AiFillPhone/>,
         cName: 'nav__text'
     },

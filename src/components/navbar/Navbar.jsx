@@ -4,16 +4,15 @@ import Hamburguer from '../hamburguer/Hamburguer';
 import { BrowserRouter as  Router, Switch, Route } from 'react-router-dom';
 import DiegoLogo from '../../assets/images/diegoSarmiento.png'
 
-
 class Navbar extends Component {
-    render() {
+    render(props) {
         return (
-            <div>
+            <div id={this.props.link}>
                 <div className="navbar__container">
                     <Router>
                         <Hamburguer/>
                         <Switch>
-                            <Route path='/' />
+                            <Route path='/'/>
                         </Switch>
                     </Router>
                     <div className="navbar__image--container">
