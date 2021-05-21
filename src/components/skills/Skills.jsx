@@ -40,7 +40,7 @@ function Skills(props) {
                 <SkillBadge
                     img={Team}
                     title='Collaborative'
-                    p='i prioritize group goals over personal recognition or agendas having an open mind about suggestions from team members'
+                    p='i prioritize group goals over personal recognition or agendas having an open mind about suggestions from team members. I practice agile methodologies such as SCRUM as my workpath'
                 />
                 <SkillBadge
                     img={Diego}

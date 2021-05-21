@@ -33,7 +33,7 @@ function Home(props) {
                     p1="This is a fully responsive website designed from scratch using Figma and builded with React Js"
                     p2="I implemented Technical SEO configuration for this project and it is on top when you search it"
                     Project1={ProaHome}
-                    first='HTML'
+                    first='Npm'
                     second='CSS'
                     third='React'
                     fourth='Aws'
@@ -41,10 +41,10 @@ function Home(props) {
                 <Projects 
                     heading="2. Login / Register flow for enproa.co"
                     subtitle="Designed and translated to code using React Js and React router"
-                    p1="Every view is connected using React Router and its a full validated form, it shows you 404, 500 and 200 responses when user click on events."
+                    p1="Every view is connected using React Router. It's a full validated form, it shows you 404, 500 and 200 responses when user click on events."
                     p2="I used BEM and SASS for good practices."
                     Project1={Project1}
-                    first='HTML'
+                    first='Yarn'
                     second='CSS'
                     third='React'
                     fourth='Aws'
@@ -52,8 +52,8 @@ function Home(props) {
                 <Projects
                     heading="3. Personal website diegosarmiento.co"
                     subtitle="Website design and WebApp"
-                    p1="This is my custom website and was designed, coded and deployed by me using React, Router, some icons and images libraries and was deployed using AWS with an excellent CI."
-                    p2="Full responsive website"
+                    p1="This is my custom website. Was designed, coded and deployed by me using React, Router, HashLink and some React icons and images  libraries."
+                    p2="Was deployed using AWS amplify with an excellent CI."
                     Project1={Personal}
                     first='HTML'
                     second='JS'
@@ -64,9 +64,9 @@ function Home(props) {
                     heading="4. Platzi video local hosted"
                     subtitle="API calls to get images"
                     p1="This was a project where Platzi teachers teach me how to make API calls using GET, POST and Fecth"
-                    p2="Was my first React Js project"
+                    p2="Was my first React Js project. I used XMLHttpRequest to get data from a fakeAPI"
                     Project1={PlatziVideo}
-                    first='HTML'
+                    first='Bootstrap'
                     second='JS'
                     third='React'
                     fourth='Aws'
