@@ -6,6 +6,7 @@ function Stack(props) {
         <div>
             <div>
                 <div className="one">
+                  <p className='one__text'>{props.text}</p>
                     <img className='stack__images' src={props.img} alt='Diego Sarmiento stack images'/> 
                 </div>
             </div>

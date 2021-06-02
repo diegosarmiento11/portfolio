@@ -30,30 +30,39 @@ function AboutMe(props) {
                     <div className="stack__container">
                         <Stack
                             img={Html}
+                            text='HTML5'
                         />
                         <Stack
                             img={Css}
+                            text='CSS3'
                         />
                         <Stack
                             img={Js}
+                            text='JavaScript'
                         />
                         <Stack
                             img={Sass}
+                            text='SASS'
                         />
                         <Stack
                             img={Reactlogo}
+                            text='ReactJs'
                         />
                         <Stack
                             img={Git}
+                            text='Git'
                         />
                         <Stack
                             img={Yarn}
+                            text='Yarn'
                         />
                         <Stack
                             img={Heroku}
+                            text='Heroku'
                         />
                         <Stack
                             img={Aws}
+                            text='AWS'
                         />
                     </div>
                 </div>
@@ -63,3 +72,4 @@ function AboutMe(props) {
 }
 
 export default AboutMe;
+
