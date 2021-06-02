@@ -3,6 +3,10 @@
 .one {
     margin: 10px 0px 0px 30px;
 }
+.one__text {
+  text-align: center;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 420px) {
     .one {
@@ -13,3 +17,6 @@
         max-width: 100%;
     }
 }
+
+
+
