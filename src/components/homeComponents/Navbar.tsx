@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function Navbar() {
+const Navbar = () => {
   return (
     <>
       <div className="navbar bg-transparent text-neutral-content rounded-box glass">
@@ -43,4 +41,6 @@ export default function Navbar() {
       </div>
     </>
   );
-}
+};
+
+export default Navbar;

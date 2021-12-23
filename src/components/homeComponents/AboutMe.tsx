@@ -1,14 +1,12 @@
-import React from "react";
-
-export default function AboutMe() {
+const AboutMe = () => {
   return (
     <>
-      <div className="hero min-h-screen bg-neutral my-8 py-16">
+      <div className="hero min-h-screen bg-neutral my-8 md:py-16">
         <div className="hero-content">
           <div className="max-w-lg m-auto bg-neutral">
-            <h1 className="my-10 text-4xl md:text-5xl font-bold text-center text-white">
+            <h2>
               Let's start with something about me...
-            </h1>
+            </h2>
             <div className="justify-center flex my-12">
               <div className="tabs tabs-boxed  bg-neutral-focus">
                 <a href="/" className="tab tab-lg text-white">
@@ -22,7 +20,7 @@ export default function AboutMe() {
                 </a>
               </div>
             </div>
-            <p className="text-white text-center">
+            <p className="text-center">
               Choosing the rigth candidate could be overwhelmed , right? Let me
               tell you something about me and the challenges that i have
               overcome I have developed self-taught learning skills and have a
@@ -61,3 +59,5 @@ export default function AboutMe() {
     </>
   );
 }
+
+export default AboutMe;

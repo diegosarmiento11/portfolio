@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function Footer() {
+const Footer = () => {
   return (
     <>
       <footer className="p-10 footer bg-base-200 text-base-content footer-center">
@@ -61,4 +59,6 @@ export default function Footer() {
       </footer>
     </>
   );
-}
+};
+
+export default Footer;
