@@ -1,23 +1,26 @@
+import { useTranslation } from "react-i18next";
+
 const Navbar = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div className="navbar bg-transparent text-neutral-content rounded-box glass">
         <div className="px-2 mx-2 navbar-start">
-          <span className="text-lg font-bold">Diego Sarmiento</span>
+          <span className="text-lg font-bold">{t("navbar.name")}</span>
         </div>
         <div className="hidden px-2 mx-2 navbar-center lg:flex ">
           <div className="flex items-stretch">
             <a href="/" className="btn btn-ghost btn-sm rounded-btn">
-              Home
+              {t("navbar.home")}
             </a>
             <a href="/" className="btn btn-ghost btn-sm rounded-btn">
-              Portfolio
+              {t("navbar.portfolio")}
             </a>
             <a href="/" className="btn btn-ghost btn-sm rounded-btn">
-              About
+              {t("navbar.about")}
             </a>
             <a href="/" className="btn btn-ghost btn-sm rounded-btn">
-              Contact
+              {t("navbar.contact")}
             </a>
           </div>
         </div>
@@ -30,9 +33,9 @@ const Navbar = () => {
               className="inline-block w-6 h-6 stroke-current"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M4 6h16M4 12h16M4 18h16"
               ></path>
             </svg>

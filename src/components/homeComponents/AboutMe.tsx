@@ -1,32 +1,27 @@
+import { useTranslation } from "react-i18next";
+
 const AboutMe = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div className="hero min-h-screen bg-neutral my-8 md:py-16">
         <div className="hero-content">
           <div className="max-w-lg m-auto bg-neutral">
-            <h2>
-              Let's start with something about me...
-            </h2>
+            <h2>{t("aboutMe.name")}</h2>
             <div className="justify-center flex my-12">
               <div className="tabs tabs-boxed  bg-neutral-focus">
                 <a href="/" className="tab tab-lg text-white">
-                  Tab 1
+                  {t("aboutMe.firstTab")}
                 </a>
                 <a href="/" className="tab tab-lg tab-active">
-                  Tab 2
+                  {t("aboutMe.secondTab")}
                 </a>
                 <a href="/" className="tab tab-lg text-white">
-                  Tab 3
+                  {t("aboutMe.thirdTab")}
                 </a>
               </div>
             </div>
-            <p className="text-center">
-              Choosing the rigth candidate could be overwhelmed , right? Let me
-              tell you something about me and the challenges that i have
-              overcome I have developed self-taught learning skills and have a
-              huge fascination with continuing to learn as i go along. I have
-              been
-            </p>
+            <p className="text-center">{t("aboutMe.parragraph")}</p>
             <div className="card shadow-2xl lg:card-side bg-primary text-primary-content m-6">
               <div className="card-body">
                 <p>
@@ -43,9 +38,9 @@ const AboutMe = () => {
                       className="inline-block w-6 h-6 ml-2 stroke-current"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M9 5l7 7-7 7"
                       ></path>
                     </svg>
@@ -58,6 +53,6 @@ const AboutMe = () => {
       </div>
     </>
   );
-}
+};
 
 export default AboutMe;
