@@ -1,4 +1,7 @@
+import { useTranslation } from "react-i18next";
+
 const Hero = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div className="hero min-h-screen ">
@@ -12,25 +15,21 @@ const Hero = () => {
                 />
               </div>
             </div>
-            <h1>Hello!</h1>
-            <h2>My name is Diego Sarmiento</h2>
+            <h1>{t("hero.hi")}</h1>
+            <h2>{t("hero.name")}</h2>
             <p>
-              <span className="font-bold text-lg">
-                {" "}
-                Welcome to my portfolio.{" "}
-              </span>{" "}
-              I will show you how i design and develop responsive, optimized and
-              efficient web aplications and websites 😛
+              <span className="font-bold text-lg"> {t("hero.welcome")} </span> I
+              {t("hero.parragraph")}
             </p>
             <div className="w-full my-6">
               <button className="btn mx-4 my-4 btn-lg btn-ghost border-white text-white ">
                 CV / Resumeé
               </button>
               <button className="btn mx-4 btn-lg btn-active">
-                Get in touch
+                {t("hero.contact")}
               </button>
             </div>
-            <h2 className="my-16">Let's go!</h2>
+            <h2 className="my-16">{t("hero.go")}</h2>
           </div>
         </div>
       </div>

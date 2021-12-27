@@ -1,0 +1,53 @@
+{
+  "navbar": {
+    "name": "Diego Sarmiento",
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "hi": "Hello!",
+    "name": "My name is Diego Sarmiento",
+    "welcome": "Welcome to my portfolio.",
+    "parragraph": " will show you how i design and develop responsive, optimized and efficient web aplications and websites 😛",
+    "contact": "Get in touch",
+    "go": "Let's go!"
+  },
+
+  "projects": {
+    "name": "Recent projects",
+    "parragraph": "I will show you how i am able to translate your company and customer needs into functional and appealing interactive applications.",
+    "goToButton": "More projects here"
+  },
+
+  "blackCard": {
+    "title": "horizontal",
+    "content": "peneano Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
+    "badge": "New",
+    "firstButton": "Get started",
+    "secondButton": "More info"
+  },
+
+  "whiteCard": {
+    "title": "horizontal",
+    "content": "peneano Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
+    "badge": "New",
+    "firstButton": "Get started",
+    "secondButton": "More info"
+  },
+
+  "aboutMe": {
+    "name": "Let's start with something about me...",
+    "parragraph": "Choosing the rigth candidate could be overwhelmed , right? Let me tell you something about me and the challenges that i have overcome I have developed self-taught learning skills and have a huge fascination with continuing to learn as i go along. I have been",
+    "firstTab": "tab1",
+    "secondTab": "tab2",
+    "thirdTab": "tab3"
+  },
+
+  "footer": {
+    "name": "Designed and builded by",
+    "parragraph": "Providing reliable tech since 2019"
+  }
+}
