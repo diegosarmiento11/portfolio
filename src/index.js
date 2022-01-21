@@ -1,12 +1,12 @@
-import React from "react";
 import ReactDOM from "react-dom";
 import "./plugins/i18next";
+import App from "./App";
 import "./index.css";
-import MainPage from "./pages/home/MainPage.tsx";
+import reportWebVitals from "./reportWebVitals";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <MainPage />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+const render = (Component) =>
+  ReactDOM.render(<Component />, document.getElementById("root"));
+
+render(App);
+
+reportWebVitals();

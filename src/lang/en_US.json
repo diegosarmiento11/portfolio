@@ -23,19 +23,17 @@
   },
 
   "blackCard": {
-    "title": "horizontal",
-    "content": "peneano Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
-    "badge": "New",
-    "firstButton": "Get started",
-    "secondButton": "More info"
+    "title": "Robinfood staff user WebApp",
+    "content": "This is a modularize WebApp created using Vue.js + Typescript for Staff Users. Among other things, it allows you to create brands, promotions, products, schedules and stores into the different integrations that the company had with delivery applications, own platforms and application.",
+    "badge": "FoodTech",
+    "firstButton": "Get technical details"
   },
 
   "whiteCard": {
-    "title": "horizontal",
-    "content": "peneano Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.",
-    "badge": "New",
-    "firstButton": "Get started",
-    "secondButton": "More info"
+    "title": "Proa WebApp and landing page",
+    "content": "I designed and builded this landing page and WebApp using React.js for an B2B SaaS electronic signature company based in Colombia. In addition, i created login, document preview and document loader section for users.",
+    "badge": "LegalTech",
+    "firstButton": "Get technical details"
   },
 
   "aboutMe": {
@@ -49,5 +47,40 @@
   "footer": {
     "name": "Designed and builded by",
     "parragraph": "Providing reliable tech since 2019"
+  },
+
+  "mainProjects": {
+    "hero": {
+      "title": "Robinfood Colombia",
+      "content": "efault but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Why do we use it?",
+      "collapse": {
+        "message1": "a su " ,
+        "message2": "puta" ,
+        "message3": "madre"
+      }
+    },
+    "notHero": {
+      "title": "Proa E-signature",
+      "content": "efault but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Why do we use it?",
+      "collapse": {
+        "message1": "a la cerfa" ,
+        "message2": "perro  " ,
+        "message3": "callate"
+      }
+    },
+    "hero1": {
+      "title": "Proa E-signature",
+      "content": "efault but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Why do we use it?",
+      "collapse": {
+        "message1": "eso" ,
+        "message2": "tilín" ,
+        "message3": "dale"
+      }
+    },
+    "collapse": {
+      "first": "Architecture",
+      "second": "Technologies",
+      "third": "Good practices"
+    }
   }
 }

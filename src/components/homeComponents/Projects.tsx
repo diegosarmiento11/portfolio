@@ -3,6 +3,9 @@ import GoToButton from "../../shared/components/buttons/GoToButton";
 import BlackCard from "../../shared/components/cards/BlackCard";
 import WhiteCard from "../../shared/components/cards/WhiteCard";
 
+import ScheduleModule from "../../assets/images/scheduleModule.png";
+import ProaHome from "../../assets/images/proa-home.png";
+
 const Projects = () => {
   const { t } = useTranslation();
   return (
@@ -19,12 +22,12 @@ const Projects = () => {
         <div className="w-7/8 m-auto my-12">
           <BlackCard
             title={t("blackCard.title")}
-            img={"https://picsum.photos/id/1005/400/250"}
+            img={ScheduleModule}
             message={t("blackCard.content")}
           />
           <WhiteCard
             title={t("whiteCard.title")}
-            img={"https://picsum.photos/id/1005/400/250"}
+            img={ProaHome}
             message={t("whiteCard.content")}
           />
         </div>

@@ -30,4 +30,7 @@
   .ds-bg-gradient {
     @apply bg-gradient-to-t from-purple-800  to-blue-600;
   }
+  .ds-bg-white {
+    @apply bg-white;
+  }
 }

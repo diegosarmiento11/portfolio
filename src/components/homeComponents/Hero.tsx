@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
 
+import Profile from "../../assets/images/profile.jpeg"
+
 const Hero = () => {
   const { t } = useTranslation();
   return (
@@ -10,7 +12,7 @@ const Hero = () => {
             <div className="avatar">
               <div className="mb-8 rounded-full w-36 h-36 ring ring-primary ring-offset-base-100 ring-offset-2">
                 <img
-                  src="http://daisyui.com/tailwind-css-component-profile-1@94w.png"
+                  src={Profile}
                   alt="jeje"
                 />
               </div>
@@ -22,12 +24,16 @@ const Hero = () => {
               {t("hero.parragraph")}
             </p>
             <div className="w-full my-6">
-              <button className="btn mx-4 my-4 btn-lg btn-ghost border-white text-white ">
-                CV / Resumeé
-              </button>
-              <button className="btn mx-4 btn-lg btn-active">
-                {t("hero.contact")}
-              </button>
+              <a href="https://diegosarmientocv.s3.amazonaws.com/Diego+Sarmiento.pdf">
+                <button className="btn mx-4 my-4 btn-lg btn-ghost border-white text-white ">
+                  CV / Resumeé
+                </button>
+              </a>
+              <a href="https://api.whatsapp.com/send?phone=573142968917">
+                <button className="btn mx-4 btn-lg btn-active">
+                  {t("hero.contact")}
+                </button>
+              </a>
             </div>
             <h2 className="my-16">{t("hero.go")}</h2>
           </div>
