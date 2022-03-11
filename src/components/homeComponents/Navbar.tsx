@@ -7,19 +7,29 @@ const Navbar = () => {
     <>
       <div className="navbar bg-transparent text-neutral-content rounded-box glass">
         <div className="px-2 mx-2 navbar-start">
-          <Link to="/" className="text-lg font-bold">{t("navbar.name")}</Link>
+          <Link to="/" className="text-lg font-bold">
+            {t("navbar.name")}
+          </Link>
         </div>
         <div className="hidden px-2 mx-2 navbar-center lg:flex ">
           <div className="flex items-stretch">
-            <Link to="/"  className="btn btn-ghost btn-sm rounded-btn">
+            <Link to="/" className="btn btn-ghost btn-sm rounded-btn">
               {t("navbar.home")}
             </Link>
-            <Link to="./mainProjects" href="/" className="btn btn-ghost btn-sm rounded-btn">
+            <Link
+              to="./mainProjects"
+              href="/"
+              className="btn btn-ghost btn-sm rounded-btn"
+            >
               {t("navbar.portfolio")}
             </Link>
-            <a href="/" className="btn btn-ghost btn-sm rounded-btn">
+            <Link
+              to="./mainAbout"
+              href="/"
+              className="btn btn-ghost btn-sm rounded-btn"
+            >
               {t("navbar.about")}
-            </a>
+            </Link>
             <a href="/" className="btn btn-ghost btn-sm rounded-btn">
               {t("navbar.contact")}
             </a>

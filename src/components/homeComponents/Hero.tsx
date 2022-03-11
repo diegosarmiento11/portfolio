@@ -1,9 +1,10 @@
 import { useTranslation } from "react-i18next";
 
-import Profile from "../../assets/images/profile.jpeg"
+import Profile from "../../assets/images/profile.jpeg";
 
 const Hero = () => {
   const { t } = useTranslation();
+
   return (
     <>
       <div className="hero min-h-screen ">
@@ -11,10 +12,7 @@ const Hero = () => {
           <div className="max-w-lg">
             <div className="avatar">
               <div className="mb-8 rounded-full w-36 h-36 ring ring-primary ring-offset-base-100 ring-offset-2">
-                <img
-                  src={Profile}
-                  alt="jeje"
-                />
+                <img src={Profile} alt="jeje" />
               </div>
             </div>
             <h1>{t("hero.hi")}</h1>
