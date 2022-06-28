@@ -36,6 +36,13 @@
     "firstButton": "Get technical details"
   },
 
+  "fanduel": {
+    "title": "Proa WebApp and landing page",
+    "content": "I designed and builded this landing page and WebApp using React.js for an B2B SaaS electronic signature company based in Colombia. In addition, i created login, document preview and document loader section for users.",
+    "badge": "LegalTech",
+    "firstButton": "Get technical details"
+  },
+
   "aboutMe": {
     "name": "Let's start with something about me...",
     "parragraph": "Choosing the rigth candidate could be overwhelmed , right? Let me tell you something about me and the challenges that i have overcome I have developed self-taught learning skills and have a huge fascination with continuing to learn as i go along. I have been",

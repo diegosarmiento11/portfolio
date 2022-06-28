@@ -1,6 +1,5 @@
 import Navbar from "../../components/homeComponents/Navbar";
 import Hero from "../../components/homeComponents/Hero";
-import AboutMe from "../../components/homeComponents/AboutMe";
 
 import Projects from "../../components/homeComponents/Projects";
 import Footer from "../../components/homeComponents/Footer";
@@ -13,7 +12,6 @@ const MainPage = () => {
         <Hero />
       </div>
       <Projects />
-      <AboutMe />
       <Footer />
     </>
   );

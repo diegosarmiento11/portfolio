@@ -5,6 +5,7 @@ import WhiteCard from "../../shared/components/cards/WhiteCard";
 
 import ScheduleModule from "../../assets/images/scheduleModule.png";
 import ProaHome from "../../assets/images/proa-home.png";
+import FanduelApp from "../../assets/images/fanduelApp.png";
 
 const Projects = () => {
   const { t } = useTranslation();
